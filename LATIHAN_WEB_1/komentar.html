@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komentar</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1{
+            text-decoration: underline;
+        }
+        table{
+            margin-top: 50px;
+            background-color: rgb(9, 193, 255);
+            padding: 25px;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">KOMENTAR</h1>
+    <table align="center" width="50%">
+        <form action="" method="post">
+            <tr>
+                <td><label for="#nama">Nama Lengkap</label></td>
+                <td><input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">NIM</label></td>
+                <td><input type="text" name="nim" id="" maxlength="10" placeholder="Masukkan NIM Anda"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">Jenis Kelamin</label></td>
+                <td><input type="radio" name="jenkel" id="" value="laki-laki">Laki-laki</td>
+                <td><input type="radio" name="jenkel" id="" value="perempuan">Perempuan</td>
+            </tr>
+            <tr>
+                <td><label for="">Alamat</label></td>
+                <td><textarea name="alamat" id="" cols="15" rows="3" placeholder="Masukkan Alamat Anda"></textarea></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">Jenjang</label></td>
+                <td><input type="radio" name="jenjang" id="D3">D3</td>
+                <td><input type="radio" name="jenjang" id="D4">D4</td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" name="email" id="" placeholder="Masukkan Email Anda"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">Nomor</label></td>
+                <td><input type="number" name="nomor" id="" placeholder="Masukkan Nomor Anda"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">Komentar</label></td>
+                <td><textarea name="" id="" cols="35" rows="4" placeholder="Silahkan isi Komentar Anda"></textarea></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="">Program Studi</label></td>
+                <td><select name="programstudi" id="">
+                    <option selected="true" disabled="disabled"> ---- </option>
+                    <option value="AB">Administrasi Bisnis</option>
+                    <option value="MI">Manajemen Informatika</option>
+                    <option value="BD">Bisnis Digital</option>
+                </select></td>
+                <td></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

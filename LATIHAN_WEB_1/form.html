@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body    {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        marquee{
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <form name="form aku" action="" method="post" align="hasilform.html">
+        <label for="nama" id="nama">Masukkan Nama Anda:</label> <br>
+        <input type="text" name="nama" placeholder="Masukkan Nama Anda" value="">
+        <input type="submit" name="submit" id="button" style="background-color: rgb(35, 35, 252); color: white;">
+    </form>
+
+    <marquee behavior="alternate" direction="" id="hasil-nama" value=""></marquee>
+</body>
+
+<!-- <script>
+    document.getElementById("form-nama").addEventListener("submit", function(event) {
+            event.preventDefault(); // Mencegah halaman untuk melakukan reload
+
+            // Mengambil nilai dari input nama
+            var nama = document.getElementById("nama").value;
+
+            // Menampilkan nama di dalam elemen dengan id "hasil-nama"
+            var hasilNama = document.getElementById("hasil-nama");
+            hasilNama.innerHTML = nama + "GAY";
+        });
+</script> -->
+</html>
